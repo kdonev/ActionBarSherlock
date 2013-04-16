@@ -19,7 +19,9 @@
     android:layout_width="match_parent"
     android:layout_height="?attr/dropdownListPreferredItemHeight"
     android:paddingLeft="16dip"
+    android:paddingStart="16dip"
     android:paddingRight="16dip"
+    android:paddingEnd="16dip"
     android:minWidth="196dip"
     android:background="?attr/activatedBackgroundIndicator"
     android:orientation="vertical" >
@@ -35,6 +37,7 @@
             android:layout_height="32dip"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="8dip"
+            android:layout_marginEnd="8dip"
             android:duplicateParentState="true" />
 
         <TextView

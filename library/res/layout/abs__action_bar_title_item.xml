@@ -19,6 +19,8 @@
               android:layout_height="wrap_content"
               android:orientation="horizontal"
               android:paddingRight="16dip"
+              android:paddingEnd="16dip"
+              android:paddingStart="0dp"
               android:background="?attr/actionBarItemBackground"
               android:enabled="false">
 

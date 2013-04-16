@@ -27,7 +27,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="?attr/listPreferredItemPaddingLeft"
+        android:layout_marginStart="?attr/listPreferredItemPaddingLeft"
         android:layout_marginRight="?attr/listPreferredItemPaddingRight"
+        android:layout_marginEnd="?attr/listPreferredItemPaddingRight"
         android:duplicateParentState="true">
         
         <TextView 
@@ -35,7 +37,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="@bool/abs__before_v17_true"
             android:textAppearance="?attr/textAppearanceListItemSmall"
             android:singleLine="true"
             android:duplicateParentState="true"
@@ -47,7 +50,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/abs__title"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="@bool/abs__before_v17_true"
             android:textAppearance="?attr/textAppearanceSmall"
             android:singleLine="true"
             android:duplicateParentState="true" />

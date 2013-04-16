@@ -19,10 +19,13 @@
         android:focusable="true"
         android:clickable="true"
         android:paddingLeft="8dip"
+        android:paddingStart="8dip"
+        android:paddingEnd="0dp"
         style="?attr/actionModeCloseButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:layout_marginRight="16dip">
+        android:layout_marginRight="16dip"
+        android:layout_marginEnd="16dip">
     <ImageView android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_gravity="center"

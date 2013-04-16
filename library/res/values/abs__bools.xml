@@ -19,4 +19,7 @@
     <bool name="abs__split_action_bar_is_narrow">true</bool>
     <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
     <!--bool name="target_honeycomb_needs_options_menu">true</bool-->
+    
+    <!-- this value is true before v17 and false on and after v17 -->
+    <bool name="abs__before_v17_true">true</bool>
 </resources>

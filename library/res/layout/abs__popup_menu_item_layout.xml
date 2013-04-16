@@ -18,7 +18,9 @@
     android:layout_width="fill_parent"
     android:layout_height="?attr/dropdownListPreferredItemHeight"
     android:minWidth="196dip"
-    android:paddingRight="16dip">
+    android:paddingRight="16dip"
+    android:paddingEnd="16dip"
+    android:paddingStart="0dp">
     
     <!-- Icon will be inserted here. -->
     
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="16dip"
+        android:layout_marginStart="16dip"
         android:duplicateParentState="true">
         
         <TextView 
@@ -36,7 +39,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="@bool/abs__before_v17_true"
             android:textAppearance="?attr/textAppearanceLargePopupMenu"
             android:singleLine="true"
             android:duplicateParentState="true"
@@ -48,7 +52,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/abs__title"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="@bool/abs__before_v17_true"
             android:textAppearance="?attr/textAppearanceSmallPopupMenu"
             android:singleLine="true"
             android:duplicateParentState="true" />

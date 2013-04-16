@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- this value is true before v17 and false on and after v17 -->
+    <bool name="abs__before_v17_true">false</bool>
+</resources>
